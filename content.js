@@ -13,7 +13,7 @@ window.PORTFOLIO = {
      Set it to false once you've picked your favorite.
   */
   theme: "clean",
-  showThemePicker: true,
+  showThemePicker: false,
 
 
   /* ---------- ABOUT YOU ---------- */
@@ -26,13 +26,13 @@ window.PORTFOLIO = {
 
   tagline: "I like building things people actually use.",
 
-  school: "ME at UT Austin, class of 2027",
+  school: "B.S. Mechanical Engineering, UT Austin, class of 2027",
 
   location: "Austin, TX",
 
-  status: "Looking for Summer 2027 full-time employment",
+  status: "Seeking full-time roles starting Summer 2027",
 
-  about: "I’m a mechanical engineering student at The University of Texas at Austin with hands-on experience in mechanical design, manufacturing, construction, and electronics. I enjoy building and troubleshooting physical systems, from restoring mechanical gearboxes and designing 3D-printed components to developing a Raspberry Pi photobooth. I’m especially interested in opportunities in MEP, HVAC, manufacturing, and mechanical design where I can apply engineering principles to real-world problems.",
+  about: "I'm a mechanical engineering student at The University of Texas at Austin with hands-on experience in mechanical design, manufacturing, construction, and electronics. I enjoy building and troubleshooting physical systems, from restoring mechanical gearboxes and designing 3D-printed components to developing a Raspberry Pi photobooth. I'm especially interested in opportunities in MEP, HVAC, manufacturing, and mechanical design where I can apply engineering principles to real-world problems.",
 
 
   /* ---------- CONTACT ---------- */
@@ -64,6 +64,20 @@ window.PORTFOLIO = {
   experience: [
 
     {
+      role: "Recruitment Team Member",
+      org: "Sigma Lambda Alpha Sorority, Inc.",
+      place: "Austin, TX",
+      dates: "January 2025 – Present",
+      summary: "Designed and produced 200+ promotional stickers using Sketchbook and a low-cost label-printing workflow, contributing to a 20% increase in applicants completing recruitment requirements.",
+      tags: [
+        "Graphic Design",
+        "Print Production",
+        "Sketchbook",
+        "Recruitment"
+      ],
+    },
+
+    {
       role: "Security Guard",
       org: "W3 Events",
       place: "Austin, TX",
@@ -78,7 +92,7 @@ window.PORTFOLIO = {
     },
 
     {
-      role: "SHPE Jr. Cochair",
+      role: "SHPE Jr. Co-Chair",
       org: "Society of Hispanic Professional Engineers",
       place: "Austin, TX",
       dates: "August 2024 – May 2026",
@@ -88,20 +102,6 @@ window.PORTFOLIO = {
         "STEM Outreach",
         "Mentoring",
         "Lesson Planning"
-      ],
-    },
-
-    {
-      role: "Recruitment Team Member",
-      org: "Sigma Lambda Alpha Sorority, Inc.",
-      place: "Austin, TX",
-      dates: "January 2025 – Present",
-      summary: "Designed and produced 200+ promotional stickers using Sketchbook and a low-cost label-printing workflow, contributing to a 20% increase in applicants completing recruitment requirements.",
-      tags: [
-        "Graphic Design",
-        "Manufacturing",
-        "Sketchbook",
-        "Recruitment"
       ],
     },
 
@@ -121,7 +121,7 @@ window.PORTFOLIO = {
 
     {
       role: "Desk Assistant",
-      org: "Nuclear Engineering and Teaching Laboratory",
+      org: "Nuclear Engineering Teaching Laboratory",
       place: "Austin, TX",
       dates: "January 2024 – May 2024",
       summary: "Supported daily laboratory operations through clerical work, package handling, front-desk support, appointment coordination, document preparation, and supply purchasing.",
@@ -147,6 +147,19 @@ window.PORTFOLIO = {
   projects: [
 
     {
+      // TODO: fill in the real details for this project
+      name: "Fluid Test Bench",
+      when: "In Progress · Fall 2026",
+      stack: [
+        "SolidWorks",
+        "Fluid Mechanics"
+      ],
+      summary: "Designing and building a fluid test bench to measure flow behavior and system performance.",
+      result: "In progress: currently in the design and build phase.",
+      url: "",
+    },
+
+    {
       name: "Kid Trax Dodge Charger Gearbox Restoration",
       when: "Machine Elements · June–July 2026",
       stack: [
@@ -157,7 +170,7 @@ window.PORTFOLIO = {
       ],
       summary: "Led the gearbox portion of a team restoration of a damaged 12V Kid Trax Dodge Charger, replacing contaminated plastic spur gears with PETG helical gears and restoring the vehicle's electrical and mechanical systems.",
       result: "Restored the vehicle to full operation while improving gearbox smoothness, noise, and reliability.",
-      url: "https://docs.google.com/presentation/d/1udCfTFDuD6pwA6FWX8RLGn8LzLSBV5h37wXKR-7fJgo/edit",
+      url: "https://docs.google.com/presentation/d/1udCfTFDuD6pwA6FWX8RLGn8LzLSBV5h37wXKR-7fJgo/edit?usp=sharing",
     },
 
     {
@@ -242,7 +255,7 @@ window.PORTFOLIO = {
     },
 
     {
-      group: "Safety",
+      group: "Safety & Certifications",
       items: [
         "OSHA 10-Hour Safety Training",
         "Level II Security Guard License"
